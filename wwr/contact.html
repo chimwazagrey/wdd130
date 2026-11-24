@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rapids Adventures</title>
+    <meta name="description" content="Contact Rapids Adventures for reservations, questions, and information about our white-water rafting services.">
+    <meta name="author" content="Grey Chimwaza">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rapids-logo.png" alt="Rapids Adventures logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="contact-information">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong><br>
+                123 Main River Street<br>
+                Kolob, California</p>
+            <p><strong>Phone:</strong> +1 999 999 9999</p>
+            <p><strong>Email:</strong> info@whitewater.com</p>
+        </section>
+
+        <div class="contact-layout">
+            <section class="contact-map">
+                <h2>Our Location</h2>
+                <iframe src="https://www.google.com/maps?q=Kolob,California&output=embed" width="600" height="300" title="Map showing the location of Rapids Adventures"></iframe>
+            </section>
+
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>What is your message about?</legend>
+                        <label><input type="radio" name="purpose" value="general inquiry">General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation question">Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="website suggestion">Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <label><input type="checkbox" name="newsletter">Please subscribe me to the monthly newsletter</label>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+
+        <section class="employee-profiles">
+            <h2>We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/john-banda.png" alt="John Banda, Operations Manager">
+                <figcaption>John Banda – Operations Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/mary-phiri.png" alt="Mary Phiri, Customer Service Manager">
+                <figcaption>Mary Phiri – Customer Service Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/peter-chirwa.png" alt="Peter Chirwa, Rafting Guide">
+                <figcaption>Peter Chirwa – Rafting Guide</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Rapids Adventures | Grey Chimwaza</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

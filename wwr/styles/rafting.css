@@ -223,3 +223,80 @@ nav a {
 .history p {
     margin-top: -10px;
 }
+
+/* Contact Us Page */
+
+.contact-information {
+    text-align: center;
+}
+
+.contact-information iframe {
+    border: 0;
+    margin-top: 15px;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.employee-profiles figure {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.employee-profiles img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.employee-profiles figcaption {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-family: var(--body-font);
+}
+
+.contact-form fieldset {
+    padding: 15px;
+}
+
+.contact-form fieldset label {
+    display: block;
+    margin: 8px 0;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.contact-map iframe {
+    width: 100%;
+}
